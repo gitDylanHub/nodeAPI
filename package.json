@@ -1,0 +1,22 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "Examples of a Star Wars API",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitDylanHub/nodeAPI.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Dylan Wright",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitDylanHub/nodeAPI/issues"
+  },
+  "homepage": "https://github.com/gitDylanHub/nodeAPI#readme"
+}
