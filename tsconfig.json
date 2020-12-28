@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["ES6"],
+    "allowJs": true,
+    "module": "commonjs",
+    "esModuleInterop": true,    
+    "noImplicitAny": true,
+    // "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "paths": {
+        "*": [
+            "./node_modules/*"
+        ]
+    },
+    "types": ["node", "@types/jest"],
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": ["src/**/*.spec.ts"]
+}

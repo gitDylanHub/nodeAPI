@@ -1,4 +1,4 @@
-import { testEnvironment } from "../jest.config"
+import { testEnvironment } from "../jest.config.js"
 
 describe('Blank Test', () => {
   test('add', async () => {
