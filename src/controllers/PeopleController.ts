@@ -1,6 +1,9 @@
 import express = require('express');
 import { RouterConfiguration } from '../common/routerConfiguration'
 
+/**
+ * People Controller: Films is the base, but will expand based on spec defined https://swapi.dev/documentation#people
+ */
 export class PeopleController extends RouterConfiguration{
   constructor(expressApp: express.Application) {
     super(expressApp, 'HomeRoutes');

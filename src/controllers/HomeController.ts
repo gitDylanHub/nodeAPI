@@ -1,6 +1,9 @@
 import { RouterConfiguration } from '../common/routerConfiguration';
 import express = require('express');
 
+/**
+ * Base Controller, non-functional just lets you know the application is running
+ */
 export class HomeController extends RouterConfiguration {
     constructor(expressApp: express.Application) {
         super(expressApp, 'HomeRoutes');

@@ -23,4 +23,7 @@ routes.push(new PeopleController(app));
 routes.push(new PlanetsController(app));
 routes.push(new StarshipsController(app));
 
+/**
+ * Default Application Configuration 
+ */
 export default app;

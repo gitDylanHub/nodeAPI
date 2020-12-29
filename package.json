@@ -1,7 +1,7 @@
 {
   "name": "nodeapi",
   "version": "1.0.0",
-  "description": "Examples of a Star Wars API",
+  "description": "Examples of a Node TypeScript API",
   "main": "dist/server.js",
   "scripts": {
     "start": "tsc && node .",

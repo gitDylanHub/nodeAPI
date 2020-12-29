@@ -6,4 +6,7 @@ const server = app.listen(app.get('port'), () => {
     console.info(`*** Running in ${app.get('env')} mode. ***`);
 });
 
+/**
+ * Web Server executing Express
+ */
 export default server;
