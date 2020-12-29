@@ -1,26 +1,23 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["ES6"],
-    "allowJs": true,
+    "target": "es6",
     "module": "commonjs",
-    "esModuleInterop": true,    
-    "noImplicitAny": true,
-    // "moduleResolution": "node",
-    "resolveJsonModule": true,
     "strict": true,
-    "sourceMap": true,
-    "outDir": "build",
-    "paths": {
-        "*": [
-            "./node_modules/*"
-        ]
-    },
-    "types": ["node", "@types/jest"],
-    "typeRoots": ["./node_modules/@types"]
+    "esModuleInterop": true,
+    "outDir": "dist/",
+    "sourceMap": true
   },
-  "include": [
-      "src/**/*"
+  "files": [
+    "./node_modules/@types/node/index.d.ts",
+    "./node_modules/@types/express/index.d.ts",
+    "./node_modules/@types/cors/index.d.ts",
+    "./node_modules/@types/jest/index.d.ts",
   ],
-  "exclude": ["src/**/*.spec.ts"]
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "typings/*",
+    "node_modules"
+  ]
 }
