@@ -1,4 +1,4 @@
-import express from 'express';
+import express = require('express');
 import { RouterConfiguration } from '../common/routerConfiguration'
 
 export class FilmsController extends RouterConfiguration{

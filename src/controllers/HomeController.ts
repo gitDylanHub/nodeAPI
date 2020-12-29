@@ -1,5 +1,5 @@
 import { RouterConfiguration } from '../common/routerConfiguration';
-import express from 'express';
+import express = require('express');
 
 export class HomeController extends RouterConfiguration {
     constructor(expressApp: express.Application) {
